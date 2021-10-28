@@ -1,10 +1,14 @@
-import React from "react";
+import React, { Fragment } from "react";
+
 import Card from "./UI/Card";
+
 function App() {
   return (
-    <div>
-      <Card />
-    </div>
+    <Fragment>
+      <div>
+        <Card />
+      </div>
+    </Fragment>
   );
 }
 

@@ -1,0 +1,11 @@
+.Information {
+  height: 39.9rem;
+  margin-top: 3rem;
+}
+.Information li {
+  list-style: none;
+  margin-bottom: 1rem;
+  font-size: 0.99rem;
+  background: linear-gradient(to right bottom, #334d50, #cbcaa5);
+  color: rgb(36, 211, 241);
+}

@@ -1,0 +1,40 @@
+.main {
+  height: 36rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  width: auto;
+  background: linear-gradient(to right bottom, #334d50, #cbcaa5);
+  margin: 1rem;
+  padding: 0;
+}
+.main li {
+  height: 8rem;
+  width: 40rem;
+  margin-bottom: 0.5rem;
+  list-style: none;
+  background: linear-gradient(to right bottom, #fdc830, #f37335);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.name {
+  display: flex;
+
+  font-size: 1.4rem;
+}
+.language {
+  font-size: 1.4rem;
+}
+.main li img {
+  height: 2.4rem;
+  display: flex;
+  margin-left: 0;
+}
+.main li button {
+  height: 1.3rem;
+  color: rgb(34, 20, 235);
+  border-radius: 50rem;
+}
